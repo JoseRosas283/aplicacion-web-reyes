@@ -334,3 +334,151 @@ td {
 /* APARTE DE AGREGAR ESTAS LINEAS HACER ESTAS COSAS : EN SECTION BORRAR EL GAP
    ADEMAS BORRAR TODO ESTILO DE .titulo_de_la_pagina section i -, ADEMAS NO GENERALIZAR LOS BOTONES ES DECIR
    NO APLICAR ESTILOS AL ELEMENTO BOTON SINO MEJOR APLICAR ESTILOS OCUPANDO SU ID #descargarExcel  */
+
+
+
+/* Estilos del Offcanvas Moderno */
+.offcanvas-end {
+    width: 400px !important;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 24px;
+}
+
+.offcanvas-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.offcanvas-body {
+    padding: 24px;
+}
+
+/* Estilos de los inputs */
+#formAgregarEmpleado .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+#formAgregarEmpleado .form-control {
+    border: 1px solid #e0e0e0;
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+}
+
+#formAgregarEmpleado .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.1);
+}
+
+#formAgregarEmpleado .form-control::placeholder {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* Espaciado entre campos */
+#formAgregarEmpleado .mb-4 {
+    margin-bottom: 20px !important;
+}
+
+/* Botones lado a lado */
+#formAgregarEmpleado .d-flex.gap-3 {
+    gap: 12px;
+}
+
+/* Estilos generales de botones */
+#formAgregarEmpleado .btn {
+    padding: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    text-align: center !important;
+    display: block;
+}
+
+/* Botón primario (Agregar) */
+#formAgregarEmpleado .btn-primary {
+    background-color: #4299FF;
+}
+
+#formAgregarEmpleado .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Botón danger (Cancelar) */
+#formAgregarEmpleado .btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+#formAgregarEmpleado .btn-danger:hover {
+    background-color: #bb2d3b;
+}
+
+/* ========== SOBRESCRIBIR BOOTSTRAP COMPLETAMENTE ========== */
+
+/* Resetear listas de Bootstrap */
+.barra-lateral ul,
+.barra-lateral .enlaces-menu {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    list-style: none !important;
+}
+
+.barra-lateral li,
+.barra-lateral .enlace-nav {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Forzar display flex en los enlaces */
+.barra-lateral li a,
+.barra-lateral .enlace-nav a {
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Proteger iconos de Boxicons */
+.barra-lateral i[class^="bx"],
+.barra-lateral .icon {
+    display: inline-block !important;
+    font-family: 'boxicons' !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    line-height: 1 !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/* Asegurar que el texto se vea */
+.barra-lateral .texto,
+.barra-lateral .nav-text {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* La barra lateral DEBAJO del backdrop para que se oscurezca */
+.barra-lateral {
+    z-index: 1040 !important;
+}
+
+/* Backdrop en medio */
+.offcanvas-backdrop {
+    z-index: 1045 !important;
+}
+
+/* Offcanvas arriba de todo */
+.offcanvas {
+    z-index: 1055 !important;
+}

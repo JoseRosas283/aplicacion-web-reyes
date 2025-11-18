@@ -294,3 +294,155 @@ td {
 /* APARTE DE AGREGAR ESTAS LINEAS HACER ESTAS COSAS : EN SECTION BORRAR EL GAP
    ADEMAS BORRAR TODO ESTILO DE .titulo_de_la_pagina section i -, ADEMAS NO GENERALIZAR LOS BOTONES ES DECIR
    NO APLICAR ESTILOS AL ELEMENTO BOTON SINO MEJOR APLICAR ESTILOS OCUPANDO SU ID #descargarExcel  */
+
+
+/* Estilos del Offcanvas Moderno */
+.offcanvas-end {
+    width: 400px !important;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 24px;
+}
+
+.offcanvas-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.offcanvas-body {
+    padding: 24px;
+}
+
+/* Estilos de los inputs */
+#formAgregarProducto .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+#formAgregarProducto .form-control {
+    border: 1px solid #e0e0e0;
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+}
+
+#formAgregarProducto .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.1);
+}
+
+/* Placeholder */
+#formAgregarProducto .form-control::placeholder {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* Espaciado */
+#formAgregarProducto .mb-4 {
+    margin-bottom: 20px !important;
+}
+
+/* Botones */
+#formAgregarProducto .btn {
+    padding: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    text-align: center !important;
+    display: block;
+}
+
+#formAgregarProducto .btn-primary {
+    background-color: #4299FF;
+}
+
+#formAgregarProducto .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+#formAgregarProducto .btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+#formAgregarProducto .btn-danger:hover {
+    background-color: #bb2d3b;
+}
+
+/* Bootstrap overrides */
+.barra-lateral ul,
+.barra-lateral .enlaces-menu {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    list-style: none !important;
+}
+
+.barra-lateral li,
+.barra-lateral .enlace-nav {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    list-style: none !important;
+}
+
+.barra-lateral li a,
+.barra-lateral .enlace-nav a {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.barra-lateral i[class^="bx"],
+.barra-lateral .icon {
+    font-family: 'boxicons' !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 1 !important;
+}
+
+.barra-lateral .texto,
+.barra-lateral .nav-text {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.barra-lateral {
+    z-index: 1040 !important;
+}
+
+.offcanvas-backdrop {
+    z-index: 1045 !important;
+}
+
+.offcanvas {
+    z-index: 1055 !important;
+}
+
+/* Estilo mejorado para input type="file" en Bootstrap */
+input[type="file"].form-control {
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1.5px solid #fff;
+}
+
+input[type="file"].form-control::file-selector-button {
+    background: #4299FF;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    margin-right: 12px;
+    cursor: pointer;
+    /* transition: .25s; */
+    font-weight: 600;
+}
+
+input[type="file"].form-control::file-selector-button:hover {
+    background: #0b5ed7;
+}

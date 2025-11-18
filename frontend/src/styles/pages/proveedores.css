@@ -298,27 +298,6 @@ td {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilos del Offcanvas Moderno */
 .offcanvas-end {
     width: 400px !important;
@@ -461,11 +440,6 @@ td {
     opacity: 1 !important;
     visibility: visible !important;
 }
-
-
-
-
-
 
 /* La barra lateral DEBAJO del backdrop para que se oscurezca */
 .barra-lateral {
